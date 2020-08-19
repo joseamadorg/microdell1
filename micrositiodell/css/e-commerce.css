@@ -1,0 +1,129 @@
+/*--- Neeeded, to make work dropdown  */
+.navbar-item.has-dropdown .navbar-dropdown {
+    display: none;
+}
+
+.navbar-item.has-dropdown.is-active .navbar-dropdown {
+    display: block;
+}
+
+
+.transparent {
+    background-color: transparent !important;
+}
+
+* {
+    box-shadow: none !important;
+}
+
+.is-90 {
+    width: 90% !important;
+}
+
+.has-blue-bg{
+    background-color: #1676ce;
+    padding: 7px;
+    display: inline-block;
+}
+
+.has-blue-bg-block{
+    background-color: #1676ce;
+    padding: 7px;
+    display: block;
+}
+
+.btn {
+    background-color: #1676ce;
+    color: #FFF;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    width: 100px;
+    border: none;
+}
+
+
+.section.bg_commerce_landing {
+    background: url('../images/5593hero.jpg') no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    /* background-color: #B8D8D8 !important;
+    background-blend-mode: overlay !important; */
+}
+
+.bg_comerce_sale {
+    background: url('https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    /* background-color: #B8D8D8 !important;
+    background-blend-mode: overlay !important; */
+}
+
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 100% !important;
+}
+
+.icons{
+    display: flex;
+}
+
+i {
+    margin-right: 7px;
+}
+
+* { font-family: 'Roboto', sans-serif; 
+    border-radius: 0px !important;  
+  }
+
+  .precio {
+  background-color: #fff;
+  color: #4a4a4a;
+  font-size: .75rem;
+  font-weight: 400;
+  padding: .75em;
+  align-content: center;
+  text-align: center;
+}
+  .cantidad {
+  font-size: 2rem;
+  font-weight: 700;
+  }
+
+  .peso {
+  vertical-align: super;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  color: #4a4a4a;
+  margin-right: .25rem;
+  }
+
+
+
+* {scroll-behavior: smooth;}
+
+.txt { font-size: 12px;}
+.blue {color: #1676cd !important;}
+.is-blue-bg { background-color: #1676cd !important; color: white;}
+
+.icons.mt-1.mb-1 {position: absolute; left: 0px; top: 420px; width: 50%;}
+
+.alto-linea{line-height: 1.8;}
+
+

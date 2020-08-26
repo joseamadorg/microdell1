@@ -122,8 +122,85 @@ i {
 .blue {color: #1676cd !important;}
 .is-blue-bg { background-color: #1676cd !important; color: white;}
 
-.icons.mt-1.mb-1 {position: absolute; left: 0px; top: 420px; width: 50%;}
-
+.icons.mt-1.mb-1 {position: relative;}
+.mb-lg {margin-bottom: 8rem !important; }
+.mt-lg {margin-top: 8rem !important; }
 .alto-linea{line-height: 1.8;}
 
+span.is-danger {
+    color: #f14646;
+    font-weight: bold;
+}
+
+.precioMeli{
+    font-size: 0.9rem !important;
+}
+
+button.button.is-blue-bg.has-text-white.is-half {
+    width: 50%;
+}
+
+footer{
+    background-color: white !important;
+}
+/*GALERIA DE FOTOS*/
+
+.b-card-slider{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .b-card-slider-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: all 0.3s;
+  }
+  .b-card-sl-con{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height:auto;
+  }
+  .bus-prev,.bus-next{
+    position: absolute;
+    background: transparent;
+    opacity: 0.8;
+    width: 45px;
+    height:45px;
+    border-radius: 20% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1676cd;
+    font-size: 19px;
+    transition: 0.2s;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .bus-prev{
+    top: 50%;
+    left:5%;
+    transform: translate(-50%,-50%);
+  }
+  .bus-next{
+    top: 50%;
+    right:5%;
+    transform: translate(50%,-50%);
+  }
+  .bus-prev:hover ,.bus-next:hover{
+    background: white;
+    color: #1676cd;
+  }
+  
+  .b-card-slider-container{
+    width: 20%;
+    height: auto;
+    object-fit:cover;
+  }
+  .b-card-slider-container img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+  }
 
